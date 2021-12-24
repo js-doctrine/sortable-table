@@ -1,0 +1,20 @@
+{
+  "name": "sortable-table",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "msw": "^0.36.3",
+    "vite": "^2.7.2"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
